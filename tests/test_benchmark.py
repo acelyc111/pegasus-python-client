@@ -1,10 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
 
-
-from pgclient import *
+import sys
+sys.path.append("../pypegasus")
+from pypegasus.pgclient import *
 from twisted.trial import unittest
 import uuid
+import time
 
 
 class TestBasics(unittest.TestCase):

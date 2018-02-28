@@ -1,13 +1,18 @@
 #! /usr/bin/env python
 # coding=utf-8
 
+import time
 import commands
-from pgclient import *
+
 from twisted.trial import unittest
+
+import sys
+sys.path.append("../pypegasus")
+from pypegasus.pgclient import *
 
 
 class ServerOperator(object):
-    shell_path = '/home/mi/git.xiaomi/Pegasus/pegasus'
+    shell_path = '/home/mi/dev/pegasus_1.6'
 
     @classmethod
     def modify_conf(cls, old_conf, new_conf):
