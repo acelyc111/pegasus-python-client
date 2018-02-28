@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # coding:utf-8
-import sys
-sys.path.append("./pypegasus")
 
 from pypegasus.pgclient import Pegasus
 from pypegasus.utils.tools import ScanOptions

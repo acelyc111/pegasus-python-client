@@ -6,8 +6,6 @@ import commands
 
 from twisted.trial import unittest
 
-import sys
-sys.path.append("../pypegasus")
 from pypegasus.pgclient import *
 
 

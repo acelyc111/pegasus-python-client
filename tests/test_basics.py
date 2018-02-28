@@ -1,8 +1,6 @@
 #! /usr/bin/env python
 # coding=utf-8
 
-import sys
-sys.path.append("../pypegasus")
 from pypegasus.pgclient import *
 from twisted.trial import unittest
 import uuid
